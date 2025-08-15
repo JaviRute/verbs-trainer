@@ -42,15 +42,7 @@ p {
 }
 
 .modal h3 {
-    margin: 1.2vh auto 1vh auto;
-}
-
-.modal-section {
-    font-weight: bold;
-}
-
-.modal-content {
-    padding: 1rem auto;
+    margin: 1.2vh auto 0.5vh auto;
 }
 
 h4 {
@@ -261,10 +253,8 @@ h4 {
 @media screen and (min-width: 1020px) and (max-width: 1030px) and (min-height: 600px) and (max-height: 768px) {
     /* CSS rules specific to 4:3 aspect ratio, commonly used in projectors in schools */
     .four-column-grid,
-    .two-column-grid, .column-table-reflexive, .nine-column-grid {
+    .two-column-grid, .column-table-reflexive {
         padding: 0 10px;
-        padding-top: 1rem;
-        margin-bottom: 1rem;
 
     }
 

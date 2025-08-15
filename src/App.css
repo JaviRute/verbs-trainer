@@ -238,6 +238,7 @@ h2 {
 }
 
 .translation-label {
+  color: #FFB200;
   background-color: #1B1A55;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -512,6 +513,7 @@ h1.title {
     font-size: 8px;
     margin: auto 0;
     height: 1.5rem;
+    color: red
   }
 
   .info-2, .info-3 {
