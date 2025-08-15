@@ -244,9 +244,8 @@ h2 {
   border-bottom-right-radius: 1rem;
   display: flex;
   align-items: center;
+  font-weight: bold
 }
-
-
 
 
 #correct-answer {
