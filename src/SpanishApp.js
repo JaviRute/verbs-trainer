@@ -13,6 +13,7 @@ import SetSeconds from './components/SetSeconds';
 import MobileInfinitives from './components/MobileInfinitivesSp';
 import MobileTenses from './components/MobileTenses';
 import MobilePersons from './components/MobilePersonsSp';
+import Footer from './components/Footer';
 
 //Data file containing all verbs' info
 import data from './spanish-data.json'
@@ -89,6 +90,10 @@ function SpanishApp() {
   const [showMobileTenses, setShowMobileTenses] = useState(false);
   const [showMobilePersons, setShowMobilePersons] = useState(false);
 
+  //Making the counter visible or not
+  const [counterVisible, setCounterVisible] = useState(false);
+
+
   // Sound-----------Sound---------------Sound----------------Sound---------------Sound--------------Sound---------
 
   //preload sounds to avoid delay
@@ -105,6 +110,12 @@ function SpanishApp() {
   }
 
   //-------FUNCTIONS----FUNCTIONS-------FUNCTIONS--------FUNCTIONS-------FUNCTIONS-------FUNCTIONS-----FUNCTIONS------
+
+  // This controls the tracker on the footer, making it appear when hovering over it
+  useEffect(() => {
+    const el = document.querySelector(".user-counter");
+    if (el) el.style.opacity = counterVisible ? "1" : "0";
+    }, [counterVisible]);
 
   const resetState = () => {
     setInput("");
@@ -508,12 +519,16 @@ function SpanishApp() {
       <div className="framework">
 
         <div className='title-row'>
-          <button className='top-button' onClick={handleTutorial}><span class="material-symbols-outlined">help</span></button>
+          <button className='top-button tooltip-container' onClick={handleTutorial}>
+            <span class="material-symbols-outlined">help</span>
+            <span className="tooltip">Instructions</span>
+          </button>
           <h1 className="title">Spanish verbs trainer: {teacherMode ? "Teacher Mode" : "Student Mode"}</h1>
           <button 
-            className='top-button'
+            className='top-button tooltip-container'
             onClick={toggleTeacherMode}>
             <span class="material-symbols-outlined">person_raised_hand</span>
+            <span className="tooltip">Toggle between Student and Teacher modes</span>
           </button>
         </div>
         
@@ -659,6 +674,11 @@ function SpanishApp() {
           infinitiveToAnswer={infinitiveToAnswer}
           />
         </div>}
+
+      <Footer
+        onHoverStart={() => setCounterVisible(true)}
+        onHoverEnd={() => setCounterVisible(false)}
+      />
         
     </div>
   );

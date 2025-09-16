@@ -36,6 +36,12 @@ function App() {
 
       {language === "Spanish" && <Spanish />}
       {language === "French" && <French />}
+
+
+
+
+
+
     </div>
   );
 }
