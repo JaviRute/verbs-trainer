@@ -277,70 +277,70 @@
       true
     ],
     [
-      "estudiar",
+      "trabajar",
       [
-        ["estudié", "I studied"],
-        ["estudiaste", "you studied"],
-        ["estudió", "he/she studied"],
-        ["estudiamos", "we studied"],
-        ["estudiasteis", "you all studied"],
-        ["estudiaron", "they studied"]
+        ["trabajé", "I worked"],
+        ["trabajaste", "you worked"],
+        ["trabajó", "he/she worked"],
+        ["trabajamos", "we worked"],
+        ["trabajasteis", "you all worked"],
+        ["trabajaron", "they worked"]
       ],
       [
-        ["estudiaba", "I used to study"],
-        ["estudiabas", "you used to study"],
-        ["estudiaba", "he/she used to study"],
-        ["estudiábamos", "we used to study"],
-        ["estudiabais", "you all used to study"],
-        ["estudiaban", "they used to study"]
+        ["trabajaba", "I used to work"],
+        ["trabajabas", "you used to work"],
+        ["trabajaba", "he/she used to work"],
+        ["trabajábamos", "we used to work"],
+        ["trabajabais", "you all used to work"],
+        ["trabajaban", "they used to work"]
       ],
       [
-        ["he estudiado", "I have studied"],
-        ["has estudiado", "you have studied"],
-        ["ha estudiado", "he/she has studied"],
-        ["hemos estudiado", "we have studied"],
-        ["habéis estudiado", "you all have studied"],
-        ["han estudiado", "they have studied"]
+        ["he trabajado", "I have worked"],
+        ["has trabajado", "you have worked"],
+        ["ha trabajado", "he/she has worked"],
+        ["hemos trabajado", "we have worked"],
+        ["habéis trabajado", "you all have worked"],
+        ["han trabajado", "they have worked"]
       ],
       [
-        ["estudio", "I study"],
-        ["estudias", "you study"],
-        ["estudia", "he/she studies"],
-        ["estudiamos", "we study"],
-        ["estudiáis", "you all study"],
-        ["estudian", "they study"]
+        ["trabajo", "I work"],
+        ["trabajas", "you work"],
+        ["trabaja", "he/she works"],
+        ["trabajamos", "we work"],
+        ["trabajáis", "you all work"],
+        ["trabajan", "they work"]
       ],
       [
-        ["estoy estudiando", "I am studying"],
-        ["estás estudiando", "you are studying"],
-        ["está estudiando", "he/she is studying"],
-        ["estamos estudiando", "we are studying"],
-        ["estáis estudiando", "you all are studying"],
-        ["están estudiando", "they are studying"]
+        ["estoy trabajando", "I am working"],
+        ["estás trabajando", "you are working"],
+        ["está trabajando", "he/she is working"],
+        ["estamos trabajando", "we are working"],
+        ["estáis trabajando", "you all are working"],
+        ["están trabajando", "they are working"]
       ],
       [
-        ["voy a estudiar", "I am going to study"],
-        ["vas a estudiar", "you are going to study"],
-        ["va a estudiar", "he/she is going to study"],
-        ["vamos a estudiar", "we are going to study"],
-        ["vais a estudiar", "you all are going to study"],
-        ["van a estudiar", "they are going to study"]
+        ["voy a trabajar", "I am going to work"],
+        ["vas a trabajar", "you are going to work"],
+        ["va a trabajar", "he/she is going to work"],
+        ["vamos a trabajar", "we are going to work"],
+        ["vais a trabajar", "you all are going to work"],
+        ["van a trabajar", "they are going to work"]
       ],
       [
-        ["estudiaré", "I will study"],
-        ["estudiarás", "you will study"],
-        ["estudiará", "he/she will study"],
-        ["estudiaremos", "we will study"],
-        ["estudiaréis", "you all will study"],
-        ["estudiarán", "they will study"]
+        ["trabajaré", "I will work"],
+        ["trabajarás", "you will work"],
+        ["trabajará", "he/she will work"],
+        ["trabajaremos", "we will work"],
+        ["trabajaréis", "you all will work"],
+        ["trabajarán", "they will work"]
       ],
       [
-        ["estudiaría", "I would study"],
-        ["estudiarías", "you would study"],
-        ["estudiaría", "he/she would study"],
-        ["estudiaríamos", "we would study"],
-        ["estudiaríais", "you all would study"],
-        ["estudiarían", "they would study"]
+        ["trabajaría", "I would work"],
+        ["trabajarías", "you would work"],
+        ["trabajaría", "he/she would work"],
+        ["trabajaríamos", "we would work"],
+        ["trabajaríais", "you all would work"],
+        ["trabajarían", "they would work"]
       ],
       "-ar verb",
       true
